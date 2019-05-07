@@ -1,0 +1,49 @@
+.timer {
+	
+	height: 40px;
+	width: 0px;
+	color: #cccccc;
+	font-size: 70px;
+	margin: 15px;
+	
+}
+
+.container {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+
+}
+
+button {
+	margin: 20px;
+	height: 35px;
+	width: 80px;
+	/*border-radius: 5px;*/
+	-webkit-animation-name: myfirst;
+    -webkit-animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    
+    animation-name: myfirst;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+ 
+@keyframes myfirst {
+    0%   {background:black;}
+    25%  {background:white;}
+    50%  {background:white;}
+    75%  {background:white;}
+    100% {background:white;}
+}
+html {
+	background-color: black;
+}
